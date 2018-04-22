@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
 
-  s.source       = { :git => "http://EXAMPLE/UBAlipaySDK.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Crazysiri/UBAlipaySDK.git", :tag => "#{s.version}" }
 
 
   s.resources = "**/*.bundle"
