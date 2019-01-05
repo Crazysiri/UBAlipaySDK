@@ -25,7 +25,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+
 		alipaySDK 单独拿出来
+
+        1.0.1：
+        SDK verions：15.5.9
                    DESC
 
   s.homepage     = "https://github.com/Crazysiri/UBAlipaySDK.git"
