@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   s.author             = { "James" => "511121933@qq.com" }
 
 
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
 
   s.source       = { :git => "https://github.com/Crazysiri/UBAlipaySDK.git", :tag => "#{s.version}" }
