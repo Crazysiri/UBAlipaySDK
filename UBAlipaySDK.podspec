@@ -46,8 +46,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Crazysiri/UBAlipaySDK.git", :tag => "#{s.version}" }
 
 
-  s.resources = "**/*.bundle"
-  s.vendored_frameworks = "**/*.framework"
+  s.resources = "AlipaySDK.bundle"
+  s.vendored_frameworks = "AlipaySDK.framework"
   # 系统的
   s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText'  , 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion'
   s.libraries = 'c++', 'z'
