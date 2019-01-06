@@ -51,6 +51,8 @@ Pod::Spec.new do |s|
   # 系统的
   s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText'  , 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion'
   s.libraries = 'c++', 'z'
-  
+  s.requires_arc = true
+
+  s.dependency "UTDID"
 
 end
