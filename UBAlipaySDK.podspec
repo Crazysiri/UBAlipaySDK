@@ -53,6 +53,6 @@ Pod::Spec.new do |s|
   s.libraries = 'c++', 'z'
   s.requires_arc = true
 
-  s.dependency "UTDID"
+#s.dependency "UTDID"
 
 end
